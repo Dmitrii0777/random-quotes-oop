@@ -9,7 +9,8 @@ body {
   text-align: center;
 }
 .btn {
-  padding: 10px 20px;
+  padding: 13px 20px;
+  margin: 0px 10px;
   font-size: 16px;
   color: white;
   border: none;
@@ -21,6 +22,12 @@ body {
 }
 .btn-primary:hover {
   background-color: #0056b3;
+}
+.btn-secondary {
+  background-color: #28a745;
+}
+.btn-secondary:hover {
+  background-color: #218838;
 }
 .btn-danger {
   background-color: transparent;
