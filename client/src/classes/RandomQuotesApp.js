@@ -43,11 +43,11 @@ class RandomQuoteApp {
     );
 
     this.randomQuotePublicAPIBtn.addEventListener("click", () =>
-      this.handleRandomQuoteViaAPI("public")
+      this.handleRandomQuoteViaAPI("PUBLIC_API_URL")
     );
 
     this.randomQuoteOwnAPIBtn.addEventListener("click", () =>
-      this.handleRandomQuoteViaAPI("local")
+      this.handleRandomQuoteViaAPI("API_URL")
     );
   }
 }
